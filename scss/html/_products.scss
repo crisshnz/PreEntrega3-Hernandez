@@ -1,1 +1,48 @@
+@import "./../utilidades/mixin";
+@import "./../utilidades/vars";
+
 /* PRODUCTS STYLES */
+.main-container-products {
+  display: flex;
+  justify-content: center;
+
+  .products-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px auto;
+    max-width: 1400px;
+    .products-section > * {
+      margin: auto;
+    }
+    .products-img {
+      width: 300px;
+      border: 1px solid #962525;
+      margin: auto;
+    }
+    .products-img-uno {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .products-img-cuatro {
+      grid-column: 3/4;
+      grid-row: 2/3;
+    }
+    .products-img-polo {
+      grid-row: 1/3;
+      height: 800px;
+    }
+    .text-products-tittles {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .text-products-prices1 {
+      color: #962525;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    .text-products-prices {
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  }
+}

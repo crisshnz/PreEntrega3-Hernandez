@@ -16,3 +16,35 @@
   position: fixed;
   bottom: 0;
 }
+
+@mixin btn-contact {
+  width: 100px;
+  margin: 10px 0 0 5px;
+  font-size: 12px;
+  border: 1px solid rgb(216, 212, 212);
+  border-radius: 18px;
+  background-color: $color-uno;
+}
+
+@mixin FAQ-tittle {
+  width: 380px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 80px;
+  border: 1px solid #962525;
+  border-radius: 20px;
+  background-color: $color-uno;
+}
+
+@mixin FAQ-text-containers {
+  width: 1500px;
+  margin: 80px;
+  padding: 20px;
+  font-size: 1.5rem;
+  background-color: $color-uno;
+  border: 1px solid $color-dos;
+  border-radius: 28px;
+}

@@ -1,1 +1,12 @@
+@import "./../utilidades/mixin";
+@import "./../utilidades/vars";
+
 /* FAQ STYLES */
+
+.tittle-FAQ {
+  @include FAQ-tittle;
+}
+
+.text-containers-FAQ {
+  @include FAQ-text-containers;
+}

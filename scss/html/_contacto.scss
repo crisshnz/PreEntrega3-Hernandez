@@ -1,1 +1,19 @@
+@import "./../utilidades/mixin";
+@import "./../utilidades/vars";
+
 /* CONTACT STYLES */
+
+main {
+  .form-container {
+    max-width: 500px;
+    margin-top: 50px;
+    div {
+      .textarea-style {
+        resize: none;
+      }
+      .btn-contact {
+        @include btn-contact;
+      }
+    }
+  }
+}

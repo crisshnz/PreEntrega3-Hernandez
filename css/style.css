@@ -1,7 +1,4 @@
-/* CONTACT STYLES */
-/* FAQ STYLES */
-/* ABOUT-US STYLES */
-/* PRODUCTS STYLES */
+/* GENERAL STYLES */
 /* reset */
 * {
   margin: 0;
@@ -9,8 +6,7 @@
   box-sizing: border-box;
   font-family: "Chivo Mono", monospace; }
 
-/* HOME AND GENERAL STYLES */
-/* header style */
+/* HEADER STYLES */
 header {
   background-color: #fafafa; }
   header nav div a img {
@@ -21,29 +17,6 @@ header {
     scale: 1.05;
     border-bottom: 1px solid #962525;
     transition: color 0.3s ease-in-out; }
-
-/* main style */
-main {
-  position: relative;
-  margin-bottom: 200px; }
-  main section {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 60px; }
-  main section div p {
-    width: 300px;
-    font-size: 1rem;
-    margin-top: 30px; }
-  main section div span {
-    font-weight: bold;
-    color: #962525;
-    text-decoration: underline; }
-  main section div .photoCut {
-    width: 300px;
-    border: 3px solid #962525;
-    margin-left: 30px; }
-  main section div .photoCut-2 {
-    margin-right: 30px; }
 
 /* footer style */
 footer {
@@ -81,6 +54,129 @@ footer {
     border-radius: 7px;
     padding: 3px 5px;
     transition: all 0.5s; }
+
+/* HOME STYLES */
+/* main style */
+main {
+  position: relative;
+  margin-bottom: 200px; }
+  main .main-container-idx {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px; }
+    main .main-container-idx div .text-idx {
+      width: 300px;
+      font-size: 1rem;
+      margin-top: 30px; }
+    main .main-container-idx div span {
+      font-weight: bold;
+      color: #962525;
+      text-decoration: underline; }
+    main .main-container-idx div .photoCut {
+      width: 300px;
+      border: 3px solid #962525;
+      margin-left: 30px; }
+    main .main-container-idx div .photoCut-2 {
+      margin-right: 30px; }
+
+/* PRODUCTS STYLES */
+.main-container-products {
+  display: flex;
+  justify-content: center; }
+  .main-container-products .products-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px auto;
+    max-width: 1400px; }
+    .main-container-products .products-section .products-section > * {
+      margin: auto; }
+    .main-container-products .products-section .products-img {
+      width: 300px;
+      border: 1px solid #962525;
+      margin: auto; }
+    .main-container-products .products-section .products-img-uno {
+      grid-column: 1/2;
+      grid-row: 1/2; }
+    .main-container-products .products-section .products-img-cuatro {
+      grid-column: 3/4;
+      grid-row: 2/3; }
+    .main-container-products .products-section .products-img-polo {
+      grid-row: 1/3;
+      height: 800px; }
+    .main-container-products .products-section .text-products-tittles {
+      text-transform: uppercase;
+      font-weight: bold; }
+    .main-container-products .products-section .text-products-prices1 {
+      color: #962525;
+      text-decoration: underline;
+      font-weight: bold; }
+    .main-container-products .products-section .text-products-prices {
+      text-decoration: underline;
+      font-weight: bold; }
+
+/* ABOUT-US STYLES */
+.main-content-aboutus .about-us-tittle {
+  color: black;
+  font-size: 4rem; }
+
+.main-content-aboutus .about-us-box1 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 40px; }
+
+.main-content-aboutus .about-us-box2 {
+  height: 500px;
+  background: linear-gradient(transparent 80%, white), url(./../img/aboutUs-leo.png);
+  background-size: cover;
+  border-left: 1px solid #962525;
+  border-top: 3px solid #962525;
+  border-right: 1px solid #962525; }
+
+.main-content-aboutus .about-us-p {
+  width: 600px;
+  font-family: "Chivo Mono", monospace;
+  font-size: 1.2rem;
+  margin-top: 70px; }
+
+.main-content-aboutus .nari-style {
+  text-decoration: none; }
+
+/* FAQ STYLES */
+.tittle-FAQ {
+  width: 380px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 80px;
+  border: 1px solid #962525;
+  border-radius: 20px;
+  background-color: #fafafa; }
+
+.text-containers-FAQ {
+  width: 1500px;
+  margin: 80px;
+  padding: 20px;
+  font-size: 1.5rem;
+  background-color: #fafafa;
+  border: 1px solid #962525;
+  border-radius: 28px; }
+
+/* CONTACT STYLES */
+main .form-container {
+  max-width: 500px;
+  margin-top: 50px; }
+  main .form-container div .textarea-style {
+    resize: none; }
+  main .form-container div .btn-contact {
+    width: 100px;
+    margin: 10px 0 0 5px;
+    font-size: 12px;
+    border: 1px solid #d8d4d4;
+    border-radius: 18px;
+    background-color: #fafafa; }
 
 /* MQ tablet */
 @media screen and (max-width: 768px) {

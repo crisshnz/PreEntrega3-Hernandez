@@ -1,2 +1,35 @@
 @import "./../utilidades/mixin";
 @import "./../utilidades/vars";
+
+/* HOME STYLES */
+
+/* main style */
+main {
+  position: relative;
+  margin-bottom: 200px;
+  .main-container-idx {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    div {
+      .text-idx {
+        width: 300px;
+        font-size: 1rem;
+        margin-top: 30px;
+      }
+      span {
+        font-weight: bold;
+        color: #962525;
+        text-decoration: underline;
+      }
+      .photoCut {
+        width: 300px;
+        border: 3px solid #962525;
+        margin-left: 30px;
+      }
+      .photoCut-2 {
+        margin-right: 30px;
+      }
+    }
+  }
+}

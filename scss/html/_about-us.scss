@@ -1,1 +1,39 @@
+@import "./../utilidades/mixin";
+@import "./../utilidades/vars";
+
 /* ABOUT-US STYLES */
+
+.main-content-aboutus {
+  .about-us-tittle {
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+  }
+
+  .about-us-box1 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 40px;
+  }
+
+  .about-us-box2 {
+    height: 500px;
+    background: linear-gradient(transparent 80%, white),
+      url(./../img/aboutUs-leo.png);
+    background-size: cover;
+    border-left: 1px solid $color-dos;
+    border-top: 3px solid $color-dos;
+    border-right: 1px solid $color-dos;
+  }
+
+  .about-us-p {
+    width: 600px;
+    font-family: "Chivo Mono", monospace;
+    font-size: 1.2rem;
+    margin-top: 70px;
+  }
+
+  .nari-style {
+    text-decoration: none;
+  }
+}

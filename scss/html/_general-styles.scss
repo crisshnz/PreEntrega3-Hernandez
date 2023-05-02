@@ -1,0 +1,80 @@
+@import "./../utilidades/mixin";
+@import "./../utilidades/vars";
+
+/* GENERAL STYLES */
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chivo Mono", monospace;
+}
+
+/* HEADER STYLES */
+header {
+  background-color: #fafafa;
+  nav div a img {
+    width: 100px;
+    scale: 3;
+  }
+  nav div div ul li .color-menu:hover {
+    @include hover-color-menu;
+  }
+}
+
+/* footer style */
+footer {
+  height: 180px;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+  background-color: #fafafa;
+  position: fixed;
+  bottom: 0;
+  p {
+    font-size: 1rem;
+    font-family: "Times New Roman", Times, serif;
+    color: #962525;
+    margin-top: 20px;
+  }
+  span {
+    color: #962525;
+    font-size: 3rem;
+    font-family: "Dancing Script", cursive;
+  }
+  .redes {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: 2rem;
+  }
+  .redes a {
+    color: #9b9b9b;
+  }
+  div {
+    a {
+      .instagram:hover {
+        background: radial-gradient(
+          circle at 30% 107%,
+          #fdf497 0%,
+          #fdf497 5%,
+          #fd5949 45%,
+          #d6249f 60%,
+          #285aeb 90%
+        );
+      }
+      .facebook:hover {
+        background: #4267b2;
+      }
+      .twitter:hover {
+        background: #1da1f2;
+      }
+      .btn-social:hover {
+        color: #fff;
+        border-radius: 7px;
+        padding: 3px 5px;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
