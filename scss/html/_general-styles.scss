@@ -1,5 +1,6 @@
 @import "./../utilidades/mixin";
 @import "./../utilidades/vars";
+@import "./../utilidades/extend";
 
 /* GENERAL STYLES */
 /* reset */
@@ -12,7 +13,7 @@
 
 /* HEADER STYLES */
 header {
-  background-color: #fafafa;
+  background-color: $color-uno;
   nav div a img {
     width: 100px;
     scale: 3;

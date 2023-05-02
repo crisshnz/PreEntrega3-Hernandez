@@ -1,8 +1,7 @@
-@import "./utilidades/mixin";
-@import "./utilidades/vars";
-
+@import "./../utilidades/mixin";
+@import "./../utilidades/vars";
+@import "./../utilidades/extend";
 /* MQ tablet */
-
 @media screen and (max-width: 768px) {
   .main-container-idx {
     display: flex;

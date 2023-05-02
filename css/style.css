@@ -1,3 +1,6 @@
+main .main-container-idx div .photoCut {
+  border: 3px solid #962525; }
+
 /* GENERAL STYLES */
 /* reset */
 * {
@@ -55,6 +58,9 @@ footer {
     padding: 3px 5px;
     transition: all 0.5s; }
 
+main .main-container-idx div .photoCut {
+  border: 3px solid #962525; }
+
 /* HOME STYLES */
 /* main style */
 main {
@@ -74,10 +80,12 @@ main {
       text-decoration: underline; }
     main .main-container-idx div .photoCut {
       width: 300px;
-      border: 3px solid #962525;
       margin-left: 30px; }
     main .main-container-idx div .photoCut-2 {
       margin-right: 30px; }
+
+main .main-container-idx div .photoCut {
+  border: 3px solid #962525; }
 
 /* PRODUCTS STYLES */
 .main-container-products {
@@ -114,6 +122,9 @@ main {
       text-decoration: underline;
       font-weight: bold; }
 
+main .main-container-idx div .photoCut {
+  border: 3px solid #962525; }
+
 /* ABOUT-US STYLES */
 .main-content-aboutus .about-us-tittle {
   color: black;
@@ -142,6 +153,9 @@ main {
 .main-content-aboutus .nari-style {
   text-decoration: none; }
 
+main .main-container-idx div .photoCut {
+  border: 3px solid #962525; }
+
 /* FAQ STYLES */
 .tittle-FAQ {
   width: 380px;
@@ -164,6 +178,9 @@ main {
   border: 1px solid #962525;
   border-radius: 28px; }
 
+main .main-container-idx div .photoCut {
+  border: 3px solid #962525; }
+
 /* CONTACT STYLES */
 main .form-container {
   max-width: 500px;
@@ -177,6 +194,9 @@ main .form-container {
     border: 1px solid #d8d4d4;
     border-radius: 18px;
     background-color: #fafafa; }
+
+main .main-container-idx div .photoCut {
+  border: 3px solid #962525; }
 
 /* MQ tablet */
 @media screen and (max-width: 768px) {

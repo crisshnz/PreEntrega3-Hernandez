@@ -1,5 +1,6 @@
 @import "./../utilidades/mixin";
 @import "./../utilidades/vars";
+@import "./../utilidades/extend";
 
 /* HOME STYLES */
 
@@ -23,8 +24,8 @@ main {
         text-decoration: underline;
       }
       .photoCut {
+        @extend %border;
         width: 300px;
-        border: 3px solid #962525;
         margin-left: 30px;
       }
       .photoCut-2 {
