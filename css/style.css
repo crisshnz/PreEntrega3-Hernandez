@@ -157,26 +157,32 @@ main .main-container-idx div .photoCut {
   border: 3px solid #962525; }
 
 /* FAQ STYLES */
-.tittle-FAQ {
-  width: 380px;
-  height: 100px;
+.main-container-FAQ {
+  width: 100%;
+  height: 70vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  text-align: center;
-  margin-left: 80px;
-  margin-top: 80px;
-  border: 1px solid #962525;
-  border-radius: 20px;
-  background-color: #fafafa; }
+  margin-top: 40px; }
+  .main-container-FAQ .container-FAQ h1 {
+    border: 2px #962525 solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #fafafa; }
+
+.container-FAQ {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
 
 .text-containers-FAQ {
-  width: 1500px;
-  margin: 80px;
-  padding: 20px;
-  font-size: 1.5rem;
-  background-color: #fafafa;
-  border: 1px solid #962525;
-  border-radius: 28px; }
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  padding: 5px;
+  border: 2px #962525 solid;
+  border-radius: 5px;
+  background-color: #fafafa; }
 
 main .main-container-idx div .photoCut {
   border: 3px solid #962525; }

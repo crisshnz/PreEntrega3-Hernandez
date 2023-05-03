@@ -26,25 +26,13 @@
   background-color: $color-uno;
 }
 
-@mixin FAQ-tittle {
-  width: 380px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin-left: 80px;
-  margin-top: 80px;
-  border: 1px solid #962525;
-  border-radius: 20px;
-  background-color: $color-uno;
+@mixin FAQ-main-container {
 }
 
 @mixin FAQ-text-containers {
-  width: 1500px;
-  margin: 80px;
-  padding: 20px;
+  width: 1200px;
   font-size: 1.5rem;
   background-color: $color-uno;
   border: 1px solid $color-dos;
-  border-radius: 28px;
+  gap: 200px;
 }
